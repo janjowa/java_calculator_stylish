@@ -1,0 +1,79 @@
+/* JS Assignment by Faisal Mehmood Tariq fysi.janjowa@gmail.com */
+.btn-primary
+{
+font-size: 50px;
+margin: 1px;
+
+padding: 1px 30px;
+} 
+.btn-danger{
+font-size: 23px;
+padding: 2px 142px;
+
+}
+.btn-success{
+    font-size: 28px;
+    padding: 1px 30px;
+
+
+}
+.buttonsDiv{
+    margin: 2px;
+    width: 100% !important;
+}
+.MainClass{
+text-shadow: darkgray;
+}
+.btn-success
+{
+font-size: 40px;
+margin: 1px;
+
+} 
+.textDisplay{
+    font-size: 23px;
+    
+/* border: 2px gray; */
+font-weight: bold;
+fill-opacity: initial;
+
+}
+.plusButton{
+    block-size: 150px !important;
+    padding: 0px 23px;
+
+}
+.equalButton{
+    block-size: 150px !important;
+    padding: 0px 26px;
+
+}
+.btnToggle{
+    font-size: 28px;
+    padding: 16px 28px;
+
+  
+}
+.btnMultiPly{
+    font-size: 27px;
+    padding: 16px 35px;
+
+  
+}
+.btnDell{
+    font-size: 40px;
+    padding: 8px 30px;
+
+  
+}
+.btnDivide{
+    font-size: 40px;
+    padding: 8px 35px;
+
+  
+}
+.btnPoint{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 14px 39px;
+}

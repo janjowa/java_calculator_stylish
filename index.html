@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator by Faisal Mehmood Janjowa</title>
+    <!-- <author>Faisal Mehmood Janjowa</author> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/calc.css">
+</head>
+<body>
+    
+
+<div class="row MainClass sm-col-12 md-col-12 lg-col-12 width-100%">
+<div class="container displayMain sm-col-12 md-col-12 lg-col-12">
+    <h1>Java Based Calculator by: <b>Faisal Mehmood Tariq </b></h1>
+
+    <div align="center">
+    <table width="227">
+        <tr>
+            <td colspan="4">
+			<input  class="textDisplay" type="text"  id="mainDisplay" size="24"></input></td>
+        </tr>
+        <tr>
+            <td colspan="4"><button class="btn-danger" onclick="clearAll()">Clear All</button></td>
+        </tr>
+        <tr>
+            <td width="86"><button class="btn-primary btnDell" onclick="removeLast()"><</button></td>
+            
+            <td width="37"><button class="btnDivide btn-primary" onclick="addValue('/')">/</button></td>
+            <td width="43"><button class="btnMultiPly btn-primary" onclick="addValue('*')">X</button></td>
+<td width="53"><button class="btn-primary" onclick="addValue('-')"> 
+			- </button></td>       
+ </tr>
+        <tr>
+            <td width="86"><button class="btn-primary" onclick="addValue(7)">7</button></td>
+            <td width="53"><button class="btn-primary" onclick="addValue(8)">8</button></td>
+            <td width="37"><button class="btn-primary" onclick="addValue(9)">9</button></td>
+            <td width="43" rowspan="2"><button class="btn-primary plusButton" onclick="addValue('+')">+</button></td>
+        </tr>
+        <tr>
+            <td width="86"><button class="btn-primary" onclick="addValue(4)">4</button></td>
+            <td width="53"><button class="btn-primary" onclick="addValue(5)">5</button></td>
+            <td width="37"><button class="btn-primary" onclick="addValue(6)">6</button></td>
+        </tr>
+        <tr>
+            <td width="86"><button class="btn-primary" onclick="addValue(1)">1</button></td>
+            <td width="53"><button class="btn-primary" onclick="addValue(2)">2</button></td>
+            <td width="37"><button class="btn-primary" onclick="addValue(3)">3</button></td>
+            <td rowspan="3" width="43"><button class="btn-success equalButton" onclick="calCulation()">=</button></td>
+        </tr>
+        <tr>
+            <td width="86"><button class="btn-primary btnToggle" onclick="signValue()">+-</button></td>
+            <td width="53"><button class="btn-primary" onclick="addValue(0)">0</button></td>
+            <td width="37"><button class="btn-primary btnPoint" onclick="addValue('.')">.</button></td>
+        </tr>
+        
+    </table>
+	</div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/calc.js"></script>
+</body>
+</html>
